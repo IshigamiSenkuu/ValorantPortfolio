@@ -15,6 +15,7 @@
 
 nav {
   background-color: #111111;
+  border-bottom: #ff4655 7px solid;
 }
 ul {
   display: flex;
@@ -29,11 +30,23 @@ li a {
   font-family: valorant;
   color: #fff;
 }
+li a:hover {
+  border-bottom: cyan 2px solid;
+  padding-bottom: 10px;
+}
 .introvid {
-  width: 500px;
-  background-color: red;
+  width: 80%;
   margin: auto;
 }
+.introvid iframe {
+  width: 100%;
+  height: 80vh;
+}
+button {
+  position: absolute;
+  z-index: 100;
+}
+
 @media (max-width: 600px) {
   li {
     display: none;
