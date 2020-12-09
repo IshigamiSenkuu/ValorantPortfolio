@@ -1,0 +1,50 @@
+@font-face {
+  font-family: valorant;
+  src: url(fonts/VALORANT.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page1 {
+  height: 100vh;
+}
+
+nav {
+  background-color: #111111;
+}
+ul {
+  display: flex;
+  justify-content: flex-end;
+}
+li {
+  margin: 30px;
+  list-style: none;
+}
+li a {
+  text-decoration: none;
+  font-family: valorant;
+  color: #fff;
+}
+.introvid {
+  width: 500px;
+  background-color: red;
+  margin: auto;
+}
+@media (max-width: 600px) {
+  li {
+    display: none;
+  }
+}
+.page2 {
+  height: 100vh;
+  background-color: blueviolet;
+}
+@media (max-width: 600px) {
+  .page2 {
+    background-color: red;
+  }
+}
